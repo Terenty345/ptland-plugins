@@ -6,7 +6,7 @@
 
 **Architecture:** Gradle multi-project build. `ter-lib` — отдельный Paper-плагин (загружается сервером), остальные плагины подключают его через `compileOnly(project(":ter-lib"))` и `depend: [TerLib]` в `plugin.yml`. Плагины общаются только через Paper Events.
 
-**Tech Stack:** Kotlin 2.0.21, Gradle 8.x (Kotlin DSL), Paper API 1.21.1-R0.1-SNAPSHOT, JUnit 5 (через `kotlin("test")`), MockBukkit 4.22.0
+**Tech Stack:** Kotlin 2.0.21, Gradle 8.x (Kotlin DSL), Paper API 1.21.11-R0.1-SNAPSHOT, JUnit 5 (через `kotlin("test")`), MockBukkit 4.22.0
 
 **Scope:** Это Plan 1 из 5. Последующие планы — ter-climate, ter-structures, ter-items, ter-lore — зависят от этого плана.
 

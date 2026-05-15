@@ -17,7 +17,7 @@
 Центральное место для версий — меняешь здесь, все 5 плагинов подхватывают изменение.
 
 ```properties
-paperVersion=1.21.1-R0.1-SNAPSHOT
+paperVersion=1.21.11-R0.1-SNAPSHOT
 mockBukkitVersion=4.22.0
 ```
 

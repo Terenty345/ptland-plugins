@@ -10,13 +10,13 @@
 ```markdown
 # PTLand Plugins
 
-Monorepo плагинов для Minecraft Paper 1.21.1 сезонного сервера. Язык: Kotlin. Текущий сезон: Лето.
+Monorepo плагинов для Minecraft Paper 1.21.11 сезонного сервера. Язык: Kotlin. Текущий сезон: Лето.
 
 ## Tech Stack
 
 - **Язык:** Kotlin 2.0.21
 - **Сборка:** Gradle + Kotlin DSL (`build.gradle.kts`)
-- **Платформа:** Paper 1.21.1
+- **Платформа:** Paper 1.21.11
 - **Тесты:** JUnit 5 + MockBukkit
 
 ## Структура проекта

@@ -1,0 +1,5 @@
+name: TerLib
+version: 1.0-SNAPSHOT
+main: dev.terenty.terlib.TerLibPlugin
+api-version: "1.21"
+description: Shared utilities for PTLand plugins
